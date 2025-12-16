@@ -60,7 +60,7 @@ def on_check_click():
 # ---------------- GUI setup ----------------
 
 root = tk.Tk()
-root.title("Password Complexity Checker")
+root.title("🛡️Password Complexity Checker")
 
 root.geometry("420x260")
 root.resizable(False, False)
