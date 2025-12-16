@@ -5,7 +5,7 @@ This project is a simple desktop application that checks the complexity of a pas
 
 Features 
 
-Checks for:
+1.Checks for:
 
   >Minimum length of 8 characters
 
@@ -19,7 +19,7 @@ Checks for:
 
 Classifies passwords as WEAK, MEDIUM, or STRONG.
 
-Color‑coded strength label:
+2.Color‑coded strength label:
 
   >Red for WEAK
 
@@ -29,14 +29,14 @@ Color‑coded strength label:
 
 Text area with suggestions showing exactly which criteria are missing.
 
-How It Works
+3.How It Works
 The core function check_password_strength(password) returns:
 
  >strength: one of "WEAK", "MEDIUM", or "STRONG", based on how many of the five rules are satisfied.
 
   >missing: a list of human‑readable messages for each unmet criterion.
 
-The GUI:
+4.The GUI:
 
   >Takes the password from an entry field (masked with *).
 
@@ -44,20 +44,21 @@ The GUI:
 
   >Updates a label with the strength and color, and a read‑only text box with advice.
 
-Requirements
+5.Requirements
+
   >Python 3.10+ (any recent Python 3 version should work)
 
   >Standard library only (uses tkinter and string, no external dependencies)
 
-How to Run
+6.How to Run
 
-  1.Save the script as password_checker_gui.py.
+  a.Save the script as password_checker_gui.py.
 
-  2.Make sure Python is installed and added to PATH.
+  b.Make sure Python is installed and added to PATH.
 
-  3.Open a terminal or command prompt in the folder containing the file.
+  c.Open a terminal or command prompt in the folder containing the file.
 
-  4.Run:
+  d.Run:
 
 bash
 python password_checker_gui.py
