@@ -5,7 +5,7 @@ This project is a simple desktop application that checks the complexity of a pas
 
 Features Checks for:
 
-Minimum length of 8 characters
+  >Minimum length of 8 characters
 
 At least one lowercase letter
 
