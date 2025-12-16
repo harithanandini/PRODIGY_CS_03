@@ -3,8 +3,7 @@ This code is a nice, clean Tkinter GUI for checking password strength. Here is a
 Overview
 This project is a simple desktop application that checks the complexity of a password using a graphical user interface built with Tkinter. The app evaluates a password against common security rules and gives both a strength label and improvement tips.
 
-Features
-Checks for:
+Features Checks for:
 
 Minimum length of 8 characters
 
