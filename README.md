@@ -50,6 +50,7 @@ Requirements
   >Standard library only (uses tkinter and string, no external dependencies)
 
 How to Run
+
   1.Save the script as password_checker_gui.py.
 
   2.Make sure Python is installed and added to PATH.
